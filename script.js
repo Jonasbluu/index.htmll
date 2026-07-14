@@ -36,7 +36,7 @@ ctx.translate(c,c);
 ctx.rotate(a+(b-a)/2);
 
 ctx.fillStyle="#fff";
-ctx.font="bold 22px Arial";
+ctx.font="bold 20px Arial";
 ctx.textAlign="center";
 ctx.fillText(hadiah[i],130,5);
 
@@ -172,7 +172,7 @@ let win=Math.floor(Math.random()*hadiah.length);
 
             spinBtn.innerHTML="CLAIM "+hasil;
 
-            winPop("🏆<br>SELAMAT!<br><br>ANDA MENDAPATKAN<br><span style='font-size:42px;color:#ffd700'>"+hasil+"</span>");
+            winPop("🏆<br>SELAMAT!<br><br>ANDA MENDAPATKAN<br><span style='font-size:40px;color:#ffd700'>"+hasil+"</span>");
 
             fetch(API_URL,{
     method:"POST",
