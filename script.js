@@ -36,7 +36,7 @@ ctx.translate(c,c);
 ctx.rotate(a+(b-a)/2);
 
 ctx.fillStyle="#fff";
-ctx.font="bold 18px Arial";
+ctx.font="bold 15px Arial";
 ctx.textAlign="center";
 ctx.fillText(hadiah[i],130,5);
 
@@ -238,13 +238,13 @@ const namaRandom=[
 ];
 
 const hadiahRandom=[
-"Rp 20.000",
-"Rp 35.000",
-"Rp 100.000",
-"Rp 50.000",
-"Rp 25.0000",
-"Rp 45.0000",
-"Rp 30.0000",
+"Rp 150.000",
+"Rp 1.000.000",
+"Rp 500.000",
+"Rp 350.000",
+"Rp 250.0000",
+"Rp 400.0000",
+"Rp 200.0000",
 ];
 
 function randomClaim(){
