@@ -53,7 +53,7 @@ body::before{
 }
 
 .logo img{
-    width:min(400px,100%);
+    width:min(450px,100%);
     animation:logoGlow 3s infinite alternate;
 }
 
