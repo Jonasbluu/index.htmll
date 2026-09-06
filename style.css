@@ -92,8 +92,8 @@ body::before{
     color:#fff;
     text-align:center;
     font-size:clamp(28px,5vw,42px);
-    font-weight:800;
-    margin-top:-70px;
+    font-weight:900;
+    margin-top:-30px;
     margin-bottom:15px;
 
     text-shadow:
