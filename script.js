@@ -201,10 +201,51 @@ let win=Math.floor(Math.random()*hadiah.length);
 });
 
 spinBtn.onclick = () => {
-    winPop(`
-        <img src="https://ibb.co/qMpM8H8g"><img src="https://i.ibb.co/C5Q5yjy9/Chat-GPT-Image-Sep-7-2026-06-17-44-AM.png" 
-             style="max-width:100%;height:auto;border-radius:10px;">
-    `);
+
+    const popup = document.createElement("div");
+
+    popup.innerHTML = `
+        <div style="
+            position:fixed;
+            inset:0;
+            background:rgba(0,0,0,.85);
+            display:flex;
+            align-items:center;
+            justify-content:center;
+            z-index:999999;
+            padding:20px;
+        ">
+            <div style="position:relative;max-width:600px;width:100%;">
+                
+                <button onclick="this.parentElement.parentElement.parentElement.remove()" style="
+                    position:absolute;
+                    right:-10px;
+                    top:-10px;
+                    width:35px;
+                    height:35px;
+                    border:0;
+                    border-radius:50%;
+                    background:#ffcc00;
+                    color:#000;
+                    font-size:24px;
+                    font-weight:bold;
+                    cursor:pointer;
+                    z-index:2;
+                ">×</button>
+
+                <img src="URL-FOTO-KAMU" style="
+                    display:block;
+                    width:100%;
+                    max-height:85vh;
+                    object-fit:contain;
+                    border-radius:12px;
+                ">
+
+            </div>
+        </div>
+    `;
+
+    document.body.appendChild(popup);
 };
 
     })
