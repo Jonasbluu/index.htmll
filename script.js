@@ -200,12 +200,12 @@ let win=Math.floor(Math.random()*hadiah.length);
 
 });
 
-spinBtn.disabled=false;
-
-spinBtn.onclick=()=>{
-    window.location.href="https://ragam4d03.com/";
+spinBtn.onclick = () => {
+    winPop(`
+        <img src="https://ibb.co/qMpM8H8g"><img src="https://i.ibb.co/C5Q5yjy9/Chat-GPT-Image-Sep-7-2026-06-17-44-AM.png" 
+             style="max-width:100%;height:auto;border-radius:10px;">
+    `);
 };
-        },6000);
 
     })
  .catch(err=>{
